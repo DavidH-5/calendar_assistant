@@ -3,7 +3,7 @@
 This project implements a **personal calendar assistant** using:
 
 - **LangChain Deep Agent** (`deepagents`)
-- **LangGraph middleware** (`wrap_tool_call`)
+- **LangGraph middleware** (`wrap_tool_call`) to enforce meeting conflict detection
 - **Google Calendar API**
 - **In-memory checkpointing** for conversation state + TODO tracking
 
